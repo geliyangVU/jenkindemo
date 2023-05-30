@@ -10,15 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/user")
 public class UserController {
-//    @Autowired
-//    private UserService userService;
-//
-//
+
 
     @PostMapping("/add")
-    public String addProduct(){
+    public String addUser(){
         return "it works";
     }
 
+
+    @PostMapping("/update")
+    public String updateUser(){
+        return "update works";
+    }
 
 }
