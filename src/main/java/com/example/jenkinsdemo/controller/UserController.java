@@ -23,4 +23,10 @@ public class UserController {
         return "update works";
     }
 
+    @PostMapping("/delete")
+    public String deleteUser(){
+        return "delete works";
+    }
+
+
 }
